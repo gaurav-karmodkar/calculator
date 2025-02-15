@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.calculator {
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #222;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.screen {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.4rem; /* Smaller font size */
+    border-radius: 5px;
+    background-color: #fff;
+    color: black; /* Black text */
+    border: none;
+    outline: none;
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Prevents overflow */
+    text-overflow: ellipsis; /* Shows "..." if text is too long */
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.btn-operator {
+    background-color: orange;
+    color: white;
+}
+.btn-clear {
+    background-color: red;
+    color: white;
+}
+.btn-equal {
+    background-color: green;
+    color: white;
+}
+.btn:hover {
+    opacity: 0.8;
+}
